@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111;          
+  color: #fff;               
+}
+
+
+.FakeApiApp {
+  max-width: 640px;
+  margin: 24px auto;
+  text-align: center;
+}
+
+
+.FakeApiApp h1 {
+  margin: 0 0 16px;
+}
+
+
+.PostForm,
+.PostCard {
+  background: #2f2f2f;               
+  border: 1px solid #555;           
+  border-radius: 6px;                 
+  padding: 16px;
+  margin: 12px 0;                     
+  text-align: left;                  
+}
+
+
+.PostCard h3 {
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+.PostCard p {
+  margin: 0;
+}
+
+
+.PostForm form {
+  margin: 0;
+}
+.PostForm label {
+  display: inline-block;   
+  width: 52px;            
+  margin-right: 6px;
+}
+.PostForm input[type="text"] {
+  width: 210px;            
+  padding: 4px 6px;
+  border: 1px solid #666;
+  background: #1a1a1a;
+  color: #fff;
+}
+.PostForm br {
+  line-height: 10px;
+}
+
+
+button {
+  margin-top: 8px;
+  padding: 4px 10px;
+  background: #1a1a1a;
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover { border-color: #888; }
+button:disabled { opacity: 0.6; cursor: default; }
+
